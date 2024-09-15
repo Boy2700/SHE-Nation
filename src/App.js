@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Box } from '@mui/material'; // Import Box from MUI
 import './App.css';
@@ -10,7 +9,6 @@ import SubBar from './Components/SubBar';
 import SubBodyTwo from './Components/SubBodytwo';
 import SubBar2 from './Components/SubBar2';
 import SubBodythree from './Components/SubBodythree'
-
 const App = () => {
   return (
     <Router>
@@ -45,5 +43,4 @@ const App = () => {
     </Router>
   );
 };
-
 export default App;
